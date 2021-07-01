@@ -18,6 +18,10 @@ We got this data from Kaggle, which they source from this specific website https
 ## Methods
 
 To model our data, we examined the correlations between the price of the house and the other variables. From the 21 original variables down to price, sq ft living area, house age, bedrooms, bathrooms, floors, waterfront, condition, sq ft above, latitude, average neighborhood house size, and grade(construction quality of house). We then one hot encoded grade because we believed it was categorical data and then sorted it into 5 categories as we thought some of the original 13 grades were extremely similar to each other. We next created a function that created a linear regression model using split (75/25) training and testing data based on the data frame that was input into it, along with printing a graph that showed in what price ranges the most error occurred. After we ran the first data frame through the function, we then made a data frame where outliers are eliminated. This reduces the root mean squared error, by logging the price and then dropping any house that fell outside of 3 standard deviations. Lastly, we one hot encoded zip code and concatenated it to our second data frame, which we ended up running through the function.
+![example](desktop/corr.png)
+![example](desktop/heatmap.png)
+![example](desktop/norm.png)
+![example](desktop/logged.png)
 
 ## Results
 
