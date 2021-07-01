@@ -26,6 +26,9 @@ To model our data, we examined the correlations between the price of the house a
 ## Results
 
 After running our models, we were able to see a gradual improvement, leading to the changes made to the next iteration. All of our models gave us relatively similar testing and training root mean squared errors (equivalent to dollars off-target), meaning that our test was not over or under-fit. The first model gave us a testing root mean squared error(RMSE) of $208,440.52. Then the second gave us $165,753.05 and lastly it gave us $124,774.52. These numbers show clear improvement between models and how impactful the changes were. One thing to note was that while our RMSE was in the hundreds of thousands, the main cause of that stemmed from houses costing 1 to 1.1 million and above, with most of the lower costing houses sitting well below $50,000 for the final model.
+![example](./images/Model1.png)
+![example](./images/Model2.png)
+![example](./images/Model3.png)
 
 ## Conclusion and Future Improvements
 
