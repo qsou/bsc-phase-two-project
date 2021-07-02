@@ -43,3 +43,20 @@ After analyzing and experimenting with different variables, our final model show
 ## For More Information
 
 Please review our Jupyter Notebook or our presentation. For any additional questions, please contact Bobby Oliver at robertoliver2000@gmail.com and Qiwen Ou at Qiwen.ou0721@gmail.com.
+
+```
+project-folder
+    |
+    README.md
+    data-folder
+    images-folder
+    notebooks-folder
+          |
+          report.ipynb
+          exploratory-folder
+                  |
+                  member-1-notebooks-folder
+                  member-2-notebooks-folder 
+                  member-3-notebooks-folder    
+```
+
